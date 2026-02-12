@@ -62,7 +62,6 @@ Cuando pides un préstamo, el algoritmo decide si eres apto o no.
 
 
 ## Video de Presentación
+https://github.com/user-attachments/assets/8882a5ae-0093-4b0b-907f-ddb2f78e5322
 
-<video src="BoostingPresentation.mp4" controls width="100%">
-  Tu navegador no soporta el elemento de video.
-</video>
+
