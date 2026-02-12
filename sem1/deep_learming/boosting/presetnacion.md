@@ -60,8 +60,12 @@ Cuando una plataforma te dice "Porque viste esta película, te recomendamos esta
 Cuando pides un préstamo, el algoritmo decide si eres apto o no.
 *   **¿Cómo ayuda el Boosting?** Es extremadamente preciso para evaluar el riesgo. Combina factores como tu historial de pagos, tu nivel de ingresos y tu edad para dar un puntaje de confianza. Es el método estándar en las *Fintech* modernas.
 
+---
 
-## Video de Presentación
-https://github.com/user-attachments/assets/8882a5ae-0093-4b0b-907f-ddb2f78e5322
+### 🎥 Demo Visual del Algoritmo
+<div align="center">
+  <video src="https://github.com/user-attachments/assets/8882a5ae-0093-4b0b-907f-ddb2f78e5322" width="90%" controls>
+  </video>
+</div>
 
-
+---
