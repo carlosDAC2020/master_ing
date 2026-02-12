@@ -1,0 +1,52 @@
+# LTV (Logic Truth Verification) Framework: Estándar Multidmensional de Verificación de Información mediante Inferencia Lógica Probabilística e IA
+
+Un marco de trabajo sistémico que estandariza la validación de información mediante el análisis de factores de contexto, confianza de fuente e inferencia semántica, utilizando modelos de lenguaje y representaciones vectoriales para generar un índice de veracidad auditable y trazable.
+
+## **Matriz del Modelo V:**
+- **Nivel Superior** 
+    - **Visión (p1):**
+     Ante la crisis de credibilidad generada por la democratización digital y la propagación masiva de desinformación, el proyecto propone el **LTV Framework**. Este es un estándar de verificación técnica que trasciende el juicio subjetivo, proporcionando una **metodología lógica, automatizada y replicable**. Su visión es establecer una **capa de veracidad** para internet donde la información sea procesada mediante un modelo de inferencia auditable, permitiendo que tanto humanos como máquinas puedan validar la trazabilidad de un hecho.
+
+    - **Impacto (p6):**
+    El éxito del **LTV Framework** se validará mediante la reducción de la equivocidad en el proceso de verificación, logrando que diferentes evaluadores (medios tradicionales, digitales o usuarios finales) lleguen a conclusiones consistentes bajo el mismo estándar. El impacto final será la creación de un ecosistema de información basado en la confianza técnica, donde el Score de Veracidad (V) sirva como una métrica estandarizada para certificar contenidos, reduciendo la dependencia de filtros humanos manuales y aumentando la resiliencia de la sociedad ante las noticias falsas.
+
+- **Nivel Medio**
+    - **Objetivos especificos (p2):**
+        - **Módulo de Recuperación Inteligente:** Desarrollar un motor de búsqueda multi-dominio que categorice y extraiga ítems de contraste relevantes según la temática detectada (académica, política, etc.).
+        - **Cuantificación de Factores:** Implementar un sistema de extracción de métricas que calcule mediante modelos de lenguaje (LLMs/NLI) los niveles de Contexto, Confianza de Fuente e Inferencia Semántica para cada ítem recuperado.
+        - **Motor de Pesos Dinámicos:** Diseñar un algoritmo de cálculo estocástico que ajuste automáticamente los cofactores de importancia según la calidad y origen del ítem de información.
+        - **Cálculo del Índice Global de Veracidad:** Desarrollar la función de agregación matemática que integre los factores ponderados dinámicamente para generar el Score V final.
+        - **Framework de Orquestación y Trazabilidad:** Integrar los módulos en una arquitectura que registre cada paso del proceso, permitiendo auditar la "ruta de decisión" que llevó al Score de Veracidad final.
+
+    - **Validación (p5):** 
+        - **Precisión de Búsqueda:** Lograr que al menos el 80% de los ítems recuperados sean calificados como "altamente relevantes" para la información a validar por un comité de expertos o contra un dataset de referencia.
+        - **Métricas de Desempeño de Factores:** Obtener un Accuracy > 85% en inferencia semántica (NLI), una correlación de Pearson > 0.80 en similitud de contexto y una consistencia del 95% en la clasificación de reputación de fuentes.
+        - **Mejora por Dinamicidad:** Demostrar estadísticamente que el uso de pesos dinámicos reduce el error de clasificación del Score V en al menos un 10% comparado con un modelo de pesos fijos.
+        - **Precisión de Clasificación Global:** Alcanzar un Accuracy > 90% en la detección de desinformación al contrastar el Score V final contra un dataset etiquetado de referencia (ej. LIAR o FEVER).
+        - **Índice de Auditabilidad:** Completar satisfactoriamente una prueba de "Caja Blanca" donde un auditor humano pueda reconstruir el 100% de la lógica de una validación a partir de los logs de trazabilidad.
+
+- **Nivel Inferior**
+    - **Tareas (p3):** 
+        - **Ingeniería de Datos:** Curación de datasets de referencia (LIAR/FEVER) y preprocesamiento de información para entrenamiento/evaluación en HuggingFace.
+        - **Diseño de Arquitectura de Agentes:** Modelado de flujos de trabajo usando LangGraph y definición de "Skills" y herramientas mediante MCP (Model Context Protocol).
+        - **Implementación de Módulos Core:** Desarrollo de la lógica de recuperación de items de información, los modulos para calculo de los factores de contexto, confianza de fuente e inferencia semántica, el motor de pesos dinámicos y el cálculo del índice global de veracidad.
+        - **Optimización y Tuning:** Ajuste de hiperparámetros de los modelos de lenguaje y refinamiento de la lógica de cofactores mediante pruebas de concepto (PoC).
+        - **Integración y QA:** Orquestación sistémica de módulos y ejecución de pruebas unitarias, integrales y de estrés para validar el Score V.
+        - **Ciclo de Documentación Técnica:** Elaboración de manuales de arquitectura, especificaciones de la API y reportes de resultados experimentales. 
+    - **Entregables (p4):** 
+        - **Estado del Arte:** Reporte técnico/Paper de revisión sobre el estado actual de la verificación de información de forma automatizada o impulsadas por IA.
+        - **Recursos de Datos:** Datasets normalizados y etiquetados publicados en HuggingFace para la comunidad científica.
+        - **Especificación Técnica:** Documento de diseño que detalle la arquitectura del sistema, el uso de tecnologias y herramientas, junto con la lógica del modelo matemático LTV.
+        - **Ecosistema de Código:** Repositorios en GitHub con las PoCs iniciales y la versión final del Framework LTV (incluyendo scripts de despliegue).
+        - **Producción Científica:** Manuscrito (Paper) detallando la metodología, arquitectura multidimensional y los resultados de validación frente a los datasets de prueba.
+        - **Prototipo Demostrativo:** API funcional o Dashboard interactivo que permita la visualización de la trazabilidad y el Score V en tiempo real.    
+
+## **Análisis de Conocimiento Sistémico:**
+- **Equivocidad (Equocality):** La equivocidad en el proyecto radica en la naturaleza subjetiva y multidimensional de la 'veracidad', la cual está sujeta a sesgos cognitivos, contextos temporales y constructos sociales. El LTV Framework reduce esta equivocidad al estabilizar y encuadrar el problema (Pasos 1 y 2), transformando un concepto ambiguo en un protocolo estandarizado de tres ejes (Contexto, Confianza e Inferencia) que permite un consenso técnico sobre la calidad de la información.
+
+- **Incertidumbre (Uncertainty):** La incertidumbre técnica del proyecto se concentra en la fase de implementación y fiabilidad procedimental (Pasos 3 al 5), mitigándose a través de una arquitectura de agentes autónomos bajo LangGraph que actúa como capa de supervisión para reevaluar y refinar hallazgos de forma iterativa, reduciendo así posibles fallos lógicos o alucinaciones de los modelos. Este enfoque se fortalece con la integración de herramientas especializadas y el protocolo MCP para garantizar una obtención de datos precisa y actualizada en el análisis de contexto, confianza e inferencia, sumado a un motor de asignación dinámica de pesos que ajusta estocásticamente la relevancia de los cofactores según la calidad de la información procesada, eliminando la arbitrariedad de los pesos fijos. Finalmente, la incertidumbre sobre el desempeño del modelo ante matices lingüísticos complejos se reduce mediante el ajuste fino de hiperparámetros y la validación rigurosa frente a datasets de referencia como LIAR o FEVER, asegurando la excelencia técnica y la estabilidad en el cálculo del Score V final.
+
+## **Justificación**: 
+El proyecto LTV Framework se justifica bajo la visión de establecer un estándar técnico que mitigue la desinformación mediante una lógica replicable y auditable. El proyecto persigue objetivos específicos de cuantificación multidimensional de la veracidad, utilizando factores de contexto, confianza de fuente e inferencia semántica. Para alcanzar estos resultados, se emplean métodos de ingeniería avanzada basados en una arquitectura de agentes autónomos y herramientas de orquestación (RAG/MCP) que permiten la asignación dinámica de pesos y la reevaluación de datos. Finalmente, la propuesta se validará mediante la obtención de un Score V con un accuracy superior al 90% en entornos controlados, garantizando una cadena de evidencia sólida que reduce tanto la equivocidad conceptual como la incertidumbre técnica en la verificación de información web.
+
+
